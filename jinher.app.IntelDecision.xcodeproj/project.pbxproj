@@ -8,20 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		84477C3D21802C20008131A7 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84477C3C21802C20008131A7 /* images.xcassets */; };
+		84477CEC21818422008131A7 /* source.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84477CEB21818421008131A7 /* source.bundle */; };
+		84477CEF2181AD4D008131A7 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477CEE2181AD4D008131A7 /* TestViewController.swift */; };
+		84477CF12181B372008131A7 /* IntelDescisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477CF02181B372008131A7 /* IntelDescisionView.swift */; };
 		84BE28F1218013D0004D3C78 /* RoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE28F0218013D0004D3C78 /* RoomListViewController.swift */; };
 		84BE28F321801409004D3C78 /* IntelDecision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE28F221801409004D3C78 /* IntelDecision.storyboard */; };
 		84C839C8217F28A500541D4D /* IntelDecision.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C839C6217F28A500541D4D /* IntelDecision.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84C839E3217F3D7500541D4D /* RoomListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C839E2217F3D7500541D4D /* RoomListCellView.swift */; };
+		F3B2B6990D3DBCE06BB6C2E8 /* Pods_jinher_app_IntelDecision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C50B6316400F48D3BE7F405 /* Pods_jinher_app_IntelDecision.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C50B6316400F48D3BE7F405 /* Pods_jinher_app_IntelDecision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jinher_app_IntelDecision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84477C3C21802C20008131A7 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		84477CEB21818421008131A7 /* source.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = source.bundle; sourceTree = "<group>"; };
+		84477CED21818500008131A7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		84477CEE2181AD4D008131A7 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		84477CF02181B372008131A7 /* IntelDescisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelDescisionView.swift; sourceTree = "<group>"; };
 		84BE28F0218013D0004D3C78 /* RoomListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListViewController.swift; sourceTree = "<group>"; };
 		84BE28F221801409004D3C78 /* IntelDecision.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IntelDecision.storyboard; sourceTree = "<group>"; };
 		84C839C3217F28A500541D4D /* jinher_app_IntelDecision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jinher_app_IntelDecision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C839C6217F28A500541D4D /* IntelDecision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntelDecision.h; sourceTree = "<group>"; };
 		84C839C7217F28A500541D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C839E2217F3D7500541D4D /* RoomListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListCellView.swift; sourceTree = "<group>"; };
+		EE22B0DD7837C48B22C43409 /* Pods-jinher.app.IntelDecision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinher.app.IntelDecision.release.xcconfig"; path = "../../../../Pods/Target Support Files/Pods-jinher.app.IntelDecision/Pods-jinher.app.IntelDecision.release.xcconfig"; sourceTree = "<group>"; };
+		FA4C5B0559F74EAE694A441E /* Pods-jinher.app.IntelDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinher.app.IntelDecision.debug.xcconfig"; path = "../../../../Pods/Target Support Files/Pods-jinher.app.IntelDecision/Pods-jinher.app.IntelDecision.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B2B6990D3DBCE06BB6C2E8 /* Pods_jinher_app_IntelDecision.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BF8C3850A3686249566C245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C5B0559F74EAE694A441E /* Pods-jinher.app.IntelDecision.debug.xcconfig */,
+				EE22B0DD7837C48B22C43409 /* Pods-jinher.app.IntelDecision.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84C839B9217F28A500541D4D = {
 			isa = PBXGroup;
 			children = (
 				84C839C5217F28A500541D4D /* IntelDecision */,
 				84C839C4217F28A500541D4D /* Products */,
+				0BF8C3850A3686249566C245 /* Pods */,
+				8B6BC8CBA8DC8820B15A0E95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,26 @@
 		84C839C5217F28A500541D4D /* IntelDecision */ = {
 			isa = PBXGroup;
 			children = (
+				84477CEB21818421008131A7 /* source.bundle */,
 				84C839C6217F28A500541D4D /* IntelDecision.h */,
 				84C839C7217F28A500541D4D /* Info.plist */,
+				84477CF02181B372008131A7 /* IntelDescisionView.swift */,
 				84C839E2217F3D7500541D4D /* RoomListCellView.swift */,
 				84BE28F0218013D0004D3C78 /* RoomListViewController.swift */,
 				84BE28F221801409004D3C78 /* IntelDecision.storyboard */,
 				84477C3C21802C20008131A7 /* images.xcassets */,
+				84477CED21818500008131A7 /* README.md */,
+				84477CEE2181AD4D008131A7 /* TestViewController.swift */,
 			);
 			path = IntelDecision;
+			sourceTree = "<group>";
+		};
+		8B6BC8CBA8DC8820B15A0E95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C50B6316400F48D3BE7F405 /* Pods_jinher_app_IntelDecision.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C839CB217F28A500541D4D /* Build configuration list for PBXNativeTarget "jinher.app.IntelDecision" */;
 			buildPhases = (
+				A57A48CBCCE1B3288F49900E /* [CP] Check Pods Manifest.lock */,
 				84C839BE217F28A500541D4D /* Headers */,
 				84C839BF217F28A500541D4D /* Sources */,
 				84C839C0217F28A500541D4D /* Frameworks */,
@@ -135,10 +171,36 @@
 			files = (
 				84477C3D21802C20008131A7 /* images.xcassets in Resources */,
 				84BE28F321801409004D3C78 /* IntelDecision.storyboard in Resources */,
+				84477CEC21818422008131A7 /* source.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A57A48CBCCE1B3288F49900E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jinher.app.IntelDecision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84C839BF217F28A500541D4D /* Sources */ = {
@@ -146,7 +208,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C839E3217F3D7500541D4D /* RoomListCellView.swift in Sources */,
+				84477CEF2181AD4D008131A7 /* TestViewController.swift in Sources */,
 				84BE28F1218013D0004D3C78 /* RoomListViewController.swift in Sources */,
+				84477CF12181B372008131A7 /* IntelDescisionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +341,10 @@
 		};
 		84C839CC217F28A500541D4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4C5B0559F74EAE694A441E /* Pods-jinher.app.IntelDecision.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9CA5KUE8T7;
@@ -304,9 +369,10 @@
 		};
 		84C839CD217F28A500541D4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE22B0DD7837C48B22C43409 /* Pods-jinher.app.IntelDecision.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9CA5KUE8T7;

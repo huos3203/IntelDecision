@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OHHTTPStubs
 /**
  自定义圆角label，设置背景色
  
@@ -48,7 +49,7 @@ class DecisionModel {
     /// 便利构造器，用于测试
     convenience init(test:Bool){
         self.init()
-        icon = "lianxiren"
+        icon = "光照iconcopy3"
         value = "12"
     }
 }
@@ -58,11 +59,22 @@ class DecisionCellView: UICollectionViewCell {
     @IBOutlet var iconImageView:UIImageView!
     @IBOutlet var statusLabel:UILabel!
     var newModel:DecisionModel!
+    
+    /**
+     采用set方法，初始化UI数据
+     
+     -问题
+         基于Framework 无法获取Asset.cer图片资源
+         [让你的iOS库支持pod和carthage](https://www.jianshu.com/p/30246a000bc6)
+     */
     var model:DecisionModel{
         set (newValue){
             newModel = newValue
-//            iconImageView.image = UIImage.init(named: newValue.icon)
+            let bundles = OHResourceBundle("source", type(of: self))
+            iconImageView.image = UIImage.init(named: newValue.icon, in: bundles, compatibleWith: nil)
             statusLabel.text = newValue.value
+            let fontPath = bundles?.path(forResource: "DINCond-Medium", ofType: "otf")
+            statusLabel.font = customFont(fontPath!, size: 15)
         }
         get{
             return newModel
@@ -75,13 +87,32 @@ class DecisionCellView: UICollectionViewCell {
             let size = CGSize.init(width: CGFloat.greatestFiniteMagnitude, height: 30)
             let text:NSString = self.statusLabel.text! as NSString
             var rect = try text.boundingRect(with: size, options: [.usesFontLeading,.usesLineFragmentOrigin], attributes: nil, context: nil)
-            rect.size.width = rect.size.width + 20
+            rect.size.width = rect.size.width + 100
             attributes.frame = rect
         } catch {
         }
         return attributes;
     }
+    
+    //MARK: 加载字体
+    
+    /// 加载otf字体文件，显示字体样式
+    ///
+    /// - Parameters:
+    ///   - path: otf文件路径
+    ///   - size: 字体大小
+    /// - Returns: 返回font字体
+    func customFont(_ path:String, size:CGFloat) -> UIFont {
+        let fontUrl = URL.init(fileURLWithPath: path)
+        let fontDataProvider = CGDataProvider.init(url: fontUrl as CFURL)
+        let fontRef = CGFont.init(fontDataProvider!)
+        CTFontManagerRegisterGraphicsFont(fontRef!, nil)
+        let fontName = fontRef?.postScriptName
+        let font = UIFont.init(name: fontName! as String, size: size)
+        return font!
+    }
 }
+
 /// 房间cell
 class RoomListCellView: UICollectionViewCell {
     var decisionArry:Array<DecisionModel> = []
@@ -109,8 +140,22 @@ class RoomListCellView: UICollectionViewCell {
         self.statusLabel.layer.cornerRadius = 5
         self.statusLabel.layer.masksToBounds = true
         ///宽度自适应设置
-        let layout:UICollectionViewFlowLayout = self.collectionView!.collectionViewLayout as! UICollectionViewFlowLayout
-        layout.estimatedItemSize = CGSize.init(width: 80, height: 100)
+//        let layout:UICollectionViewFlowLayout = self.collectionView!.collectionViewLayout as! UICollectionViewFlowLayout
+//        layout.estimatedItemSize = CGSize.init(width:100, height: 50)
+    }
+    
+    ///自适应宽度
+    override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
+        let attributes = super.preferredLayoutAttributesFitting(layoutAttributes)
+        if self.collectionView.contentSize.width > 0 {
+            do {
+                let size = CGSize.init(width: self.collectionView.contentSize.width, height: 100)
+                let rect = CGRect.init(origin: self.collectionView.frame.origin, size: size)
+                attributes.frame = rect
+            } catch {
+            }
+        }
+        return attributes;
     }
 }
 
