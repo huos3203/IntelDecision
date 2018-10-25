@@ -11,6 +11,8 @@
 		84477CEC21818422008131A7 /* source.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84477CEB21818421008131A7 /* source.bundle */; };
 		84477CEF2181AD4D008131A7 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477CEE2181AD4D008131A7 /* TestViewController.swift */; };
 		84477CF12181B372008131A7 /* IntelDescisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477CF02181B372008131A7 /* IntelDescisionView.swift */; };
+		849B902A2181D3E400C76D6E /* IntelDescisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B90292181D3E400C76D6E /* IntelDescisionViewController.swift */; };
+		849B902F2181E77B00C76D6E /* IntelDesListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B902E2181E77B00C76D6E /* IntelDesListViewCell.swift */; };
 		84BE28F1218013D0004D3C78 /* RoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE28F0218013D0004D3C78 /* RoomListViewController.swift */; };
 		84BE28F321801409004D3C78 /* IntelDecision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE28F221801409004D3C78 /* IntelDecision.storyboard */; };
 		84C839C8217F28A500541D4D /* IntelDecision.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C839C6217F28A500541D4D /* IntelDecision.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +27,8 @@
 		84477CED21818500008131A7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		84477CEE2181AD4D008131A7 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		84477CF02181B372008131A7 /* IntelDescisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelDescisionView.swift; sourceTree = "<group>"; };
+		849B90292181D3E400C76D6E /* IntelDescisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelDescisionViewController.swift; sourceTree = "<group>"; };
+		849B902E2181E77B00C76D6E /* IntelDesListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelDesListViewCell.swift; sourceTree = "<group>"; };
 		84BE28F0218013D0004D3C78 /* RoomListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListViewController.swift; sourceTree = "<group>"; };
 		84BE28F221801409004D3C78 /* IntelDecision.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IntelDecision.storyboard; sourceTree = "<group>"; };
 		84C839C3217F28A500541D4D /* jinher_app_IntelDecision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jinher_app_IntelDecision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +60,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		849B902B2181D40800C76D6E /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				84477CEE2181AD4D008131A7 /* TestViewController.swift */,
+				84BE28F0218013D0004D3C78 /* RoomListViewController.swift */,
+				84477CF02181B372008131A7 /* IntelDescisionView.swift */,
+				84C839E2217F3D7500541D4D /* RoomListCellView.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		849B902C2181D41D00C76D6E /* IntelDescision */ = {
+			isa = PBXGroup;
+			children = (
+				849B90292181D3E400C76D6E /* IntelDescisionViewController.swift */,
+				849B902E2181E77B00C76D6E /* IntelDesListViewCell.swift */,
+			);
+			path = IntelDescision;
+			sourceTree = "<group>";
+		};
+		849B902D2181D43900C76D6E /* other */ = {
+			isa = PBXGroup;
+			children = (
+				84BE28F221801409004D3C78 /* IntelDecision.storyboard */,
+				84477C3C21802C20008131A7 /* images.xcassets */,
+				84C839C6217F28A500541D4D /* IntelDecision.h */,
+				84C839C7217F28A500541D4D /* Info.plist */,
+				84477CEB21818421008131A7 /* source.bundle */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
 		84C839B9217F28A500541D4D = {
 			isa = PBXGroup;
 			children = (
@@ -77,16 +113,10 @@
 		84C839C5217F28A500541D4D /* IntelDecision */ = {
 			isa = PBXGroup;
 			children = (
-				84477CEB21818421008131A7 /* source.bundle */,
-				84C839C6217F28A500541D4D /* IntelDecision.h */,
-				84C839C7217F28A500541D4D /* Info.plist */,
-				84477CF02181B372008131A7 /* IntelDescisionView.swift */,
-				84C839E2217F3D7500541D4D /* RoomListCellView.swift */,
-				84BE28F0218013D0004D3C78 /* RoomListViewController.swift */,
-				84BE28F221801409004D3C78 /* IntelDecision.storyboard */,
-				84477C3C21802C20008131A7 /* images.xcassets */,
+				849B902C2181D41D00C76D6E /* IntelDescision */,
+				849B902B2181D40800C76D6E /* Room */,
+				849B902D2181D43900C76D6E /* other */,
 				84477CED21818500008131A7 /* README.md */,
-				84477CEE2181AD4D008131A7 /* TestViewController.swift */,
 			);
 			path = IntelDecision;
 			sourceTree = "<group>";
@@ -209,7 +239,9 @@
 			files = (
 				84C839E3217F3D7500541D4D /* RoomListCellView.swift in Sources */,
 				84477CEF2181AD4D008131A7 /* TestViewController.swift in Sources */,
+				849B902F2181E77B00C76D6E /* IntelDesListViewCell.swift in Sources */,
 				84BE28F1218013D0004D3C78 /* RoomListViewController.swift in Sources */,
+				849B902A2181D3E400C76D6E /* IntelDescisionViewController.swift in Sources */,
 				84477CF12181B372008131A7 /* IntelDescisionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// 测试外部API使用方法启动插件
 class TestViewController: UIViewController {
 
     @IBOutlet var viewdd: UIView!
@@ -21,6 +22,7 @@ class TestViewController: UIViewController {
         rootView = roomlist.rootView
         rootView.frame.origin = CGPoint.init(x: 300, y: 200)
         viewdd.addSubview(roomlist.rootView)
+        //通知更新UI
     }
     
     override func viewDidAppear(_ animated: Bool) {

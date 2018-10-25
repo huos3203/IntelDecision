@@ -43,7 +43,24 @@ func customFont(_ path:String, size:CGFloat) -> UIFont {
     return font;
 }
 ```
-
+### 开发局部视图插件
+获取某控件相对于屏幕的坐标位置
+```
+let rect = ibExampleButton.convert(ibExampleButton.center, to: zhezView)
+let x = tableView.frame.size.width/2 - 10
+let y = rect.y
+let tabrect = CGRect.init(origin: CGPoint.init(x: x, y: y), size: tableView.frame.size)
+tableView.frame = tabrect
+```
+添加遮罩层屏蔽点击事件
+```
+let window = (UIApplication.shared.delegate?.window)!
+zhezView = UIView.init(frame: (window?.bounds)!)
+zhezView.isUserInteractionEnabled = true
+let tap = UITapGestureRecognizer.init(target: self, action: #selector(IntelDescisionView.tapGestureAction(_:)))
+tap.numberOfTapsRequired = 1
+zhezView.addGestureRecognizer(tap)
+```
 
 ## 问题
 基于Framework 无法获取Asset.cer图片资源
