@@ -61,6 +61,38 @@ let tap = UITapGestureRecognizer.init(target: self, action: #selector(IntelDesci
 tap.numberOfTapsRequired = 1
 zhezView.addGestureRecognizer(tap)
 ```
+### [swift中UIView从XIB加载(POP思想)](https://www.jianshu.com/p/8cbe0d767ba4)
+1. 新建一个NibLoadable的swift文件.
+```
+protocol NibLoadable {
+}
+extension NibLoadable where Self : UIView {
+    //在协议里面不允许定义class 只能定义static
+    static func loadFromNib(_ nibname: String? = nil) -> Self {//Self (大写) 当前类对象
+        //self(小写) 当前对象
+        let loadName = nibname == nil ? "\(self)" : nibname!
+
+        return Bundle.main.loadNibNamed(loadName, owner: nil, options: nil)?.first as! Self
+    }
+}
+```
+2. 在需要使用XIB加载的页面实现该协议方法
+```
+class DemoView: UIView ,NibLoadable{
+}
+```
+3. 使用方法
+```
+//3.1 xib文件与类名同名的情况
+let demoView = DemoView.loadFromNib()
+demoView.backgroundColor = UIColor.red
+view.addSubview(demoView)
+
+//3.2 xib文件与类名不相同的情况
+let testV = TestView.loadFromNib("TestView0")
+testV.backgroundColor = UIColor.green
+view.addSubview(testV)
+```
 
 ## 问题
 基于Framework 无法获取Asset.cer图片资源
