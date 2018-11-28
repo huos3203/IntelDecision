@@ -1,0 +1,796 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AddIntelDesViewController.swift",
+      "line": 11,
+      "symbol": "AddIntelDesViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AddIntelDesViewController.swift",
+      "line": 15,
+      "symbol": "AddIntelDesViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": null,
+      "symbol": "AlertListFullView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 12,
+      "symbol": "AlertlistModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 13,
+      "symbol": "AlertlistModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 14,
+      "symbol": "AlertlistModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 16,
+      "symbol": "AlertListFullView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 18,
+      "symbol": "AlertListFullView.dataArray",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 19,
+      "symbol": "AlertListFullView.handler",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 20,
+      "symbol": "AlertListFullView.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 22,
+      "symbol": "AlertListFullView.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 60,
+      "symbol": "AlertListFullView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 64,
+      "symbol": "AlertListFullView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 67,
+      "symbol": "AlertListFullView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 76,
+      "symbol": "AlertListFullView.showlistView(target:alertData:handler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 88,
+      "symbol": "AlertListFullView.tapGestureAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 99,
+      "symbol": "AlertListFullView.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/AlertListFullView.swift",
+      "line": 110,
+      "symbol": "AlertListFullView.tableView(_:didSelectRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 11,
+      "symbol": "IntelDesModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 12,
+      "symbol": "IntelDesModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 13,
+      "symbol": "IntelDesModel.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 14,
+      "symbol": "IntelDesModel.cordon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 15,
+      "symbol": "IntelDesModel.note",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 16,
+      "symbol": "IntelDesModel.icon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 18,
+      "symbol": "IntelDesModel.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 29,
+      "symbol": "IntelDesListViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 32,
+      "symbol": "IntelDesListViewCell.ibRootView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 33,
+      "symbol": "IntelDesListViewCell.ibNameLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 34,
+      "symbol": "IntelDesListViewCell.ibValueLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 35,
+      "symbol": "IntelDesListViewCell.ibCordonLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 36,
+      "symbol": "IntelDesListViewCell.ibSubValueLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 37,
+      "symbol": "IntelDesListViewCell.ibNoteLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 38,
+      "symbol": "IntelDesListViewCell.ibIntelIconView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 39,
+      "symbol": "IntelDesListViewCell.newModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 40,
+      "symbol": "IntelDesListViewCell.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 55,
+      "symbol": "IntelDesListViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 62,
+      "symbol": "IntelDesListViewCell.ibDelAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 66,
+      "symbol": "IntelDesListViewCell.ibSetAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDesListViewCell.swift",
+      "line": 69,
+      "symbol": "IntelDesListViewCell.setSelected(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": null,
+      "symbol": "IntelDescisionViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 11,
+      "symbol": "FilterModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 12,
+      "symbol": "FilterModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 13,
+      "symbol": "FilterModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 15,
+      "symbol": "FilterModel.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 23,
+      "symbol": "IntelDescisionViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 26,
+      "symbol": "IntelDescisionViewController.ibFilterView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 27,
+      "symbol": "IntelDescisionViewController.ibFilterNameLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 28,
+      "symbol": "IntelDescisionViewController.filterArray",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 29,
+      "symbol": "IntelDescisionViewController.dataArray",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 30,
+      "symbol": "IntelDescisionViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 48,
+      "symbol": "IntelDescisionViewController.ibaBackAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 52,
+      "symbol": "IntelDescisionViewController.ibFilterAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 66,
+      "symbol": "IntelDescisionViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/IntelDescisionViewController.swift",
+      "line": 70,
+      "symbol": "IntelDescisionViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/NibLoadable.swift",
+      "line": 25,
+      "symbol": "NibLoadable.loadFromNib(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 11,
+      "symbol": "SetCordonValueView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 14,
+      "symbol": "SetCordonValueView.leftStackView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 15,
+      "symbol": "SetCordonValueView.rightStackView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 16,
+      "symbol": "SetCordonValueView.nameButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 18,
+      "symbol": "SetCordonValueView.valueFields",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 19,
+      "symbol": "SetCordonValueView.unitLabels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 20,
+      "symbol": "SetCordonValueView.operatorButtons",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 21,
+      "symbol": "SetCordonValueView.xialButtons",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 22,
+      "symbol": "SetCordonValueView.exapleLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 23,
+      "symbol": "SetCordonValueView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/IntelDescision/SetCordonValueView.swift",
+      "line": 42,
+      "symbol": "SetCordonValueView.ibaSwitchOperatorAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": null,
+      "symbol": "IntelDescisionView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": null,
+      "symbol": "IntelDescisionView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 12,
+      "symbol": "IntelDescisionView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 14,
+      "symbol": "IntelDescisionView.ibExampleButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 15,
+      "symbol": "IntelDescisionView.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 16,
+      "symbol": "IntelDescisionView.tableViewHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 18,
+      "symbol": "IntelDescisionView.collectionView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 19,
+      "symbol": "IntelDescisionView.zhezView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 21,
+      "symbol": "IntelDescisionView.dataArray",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 22,
+      "symbol": "IntelDescisionView.tuliArr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 23,
+      "symbol": "IntelDescisionView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 55,
+      "symbol": "IntelDescisionView.refreshView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 83,
+      "symbol": "IntelDescisionView.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 87,
+      "symbol": "IntelDescisionView.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 99,
+      "symbol": "IntelDescisionView.showTulistView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 109,
+      "symbol": "IntelDescisionView.tapGestureAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 120,
+      "symbol": "IntelDescisionView.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 128,
+      "symbol": "TuliCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 129,
+      "symbol": "TuliCell.icon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 130,
+      "symbol": "TuliCell.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 131,
+      "symbol": "TuliCell.newModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/IntelDescisionView.swift",
+      "line": 132,
+      "symbol": "TuliCell.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 16,
+      "symbol": "StatusLabel.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 25,
+      "symbol": "RoomStatusModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 26,
+      "symbol": "RoomStatusModel.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 27,
+      "symbol": "RoomStatusModel.statusColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 28,
+      "symbol": "RoomStatusModel.cell",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 46,
+      "symbol": "DecisionModel.icon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 47,
+      "symbol": "DecisionModel.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 59,
+      "symbol": "DecisionCellView.iconImageView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 60,
+      "symbol": "DecisionCellView.statusLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 61,
+      "symbol": "DecisionCellView.newModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 118,
+      "symbol": "RoomListCellView.decisionArry",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 119,
+      "symbol": "RoomListCellView.nameLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 120,
+      "symbol": "RoomListCellView.statusLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 121,
+      "symbol": "RoomListCellView.collectionView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 122,
+      "symbol": "RoomListCellView.newModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 123,
+      "symbol": "RoomListCellView.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 165,
+      "symbol": "RoomListCellView.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListCellView.swift",
+      "line": 169,
+      "symbol": "RoomListCellView.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListViewController.swift",
+      "line": 20,
+      "symbol": "RoomListViewController.rootView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListViewController.swift",
+      "line": 22,
+      "symbol": "RoomListViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/RoomListViewController.swift",
+      "line": 47,
+      "symbol": "RoomListViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/TestViewController.swift",
+      "line": 14,
+      "symbol": "TestViewController.viewdd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/TestViewController.swift",
+      "line": 15,
+      "symbol": "TestViewController.rootView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/TestViewController.swift",
+      "line": 16,
+      "symbol": "TestViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision/IntelDecision/Room/TestViewController.swift",
+      "line": 28,
+      "symbol": "TestViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/admin/hsg/hexo/XcodeTool/iSmallApp/bundles/IntelDecision"
+}
