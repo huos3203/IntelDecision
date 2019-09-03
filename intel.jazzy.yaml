@@ -1,0 +1,12 @@
+author: 智能设备
+author_url: http://huos3203.github.io
+github_url: https://github.com/huos3203/IntelDecision
+root_url: https://github.com/huos3203/IntelDecision
+module: jinher.app.IntelDecision
+output: docs
+theme: fullwidth
+min_acl: internal
+clean: true
+sdk: iphone
+module_version: 1.0.0
+xcodebuild_arguments: [-workspace,'../../../../hexo.xcworkspace', -scheme, 'jinher.app.IntelDecision',USE_SWIFT_RESPONSE_FILE=NO]

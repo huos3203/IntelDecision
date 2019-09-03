@@ -107,3 +107,9 @@ Xcode创建bundle 在macOS项目分类中，创建之后需要把osx相关配置
 let bundles = OHResourceBundle("source", type(of: self))
 iconImageView.image = UIImage.init(named: newValue.icon, in: bundles, compatibleWith: nil)
 ```
+
+### jazzy配置
+```
+xcodebuild_arguments: [-project,"jinher.app.IntelDecision.xcodeproj", -scheme, 'jinher.app.IntelDecision',USE_SWIFT_RESPONSE_FILE=NO]
+xcodebuild_arguments: [-workspace,'../../../../hexo.xcworkspace', -scheme, 'jinher.app.IntelDecision',USE_SWIFT_RESPONSE_FILE=NO]
+```
