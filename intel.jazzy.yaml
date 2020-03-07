@@ -1,7 +1,7 @@
 author: 智能设备
-author_url: http://huos3203.github.io
-github_url: https://github.com/huos3203/IntelDecision
-root_url: https://github.com/huos3203/IntelDecision
+author_url: http://it-boyer.github.io
+github_url: https://github.com/it-boyer/IntelDecision
+root_url: https://github.com/it-boyer/IntelDecision
 module: jinher.app.IntelDecision
 output: docs
 theme: fullwidth
