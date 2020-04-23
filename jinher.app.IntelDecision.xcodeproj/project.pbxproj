@@ -46,8 +46,8 @@
 		84C839C6217F28A500541D4D /* IntelDecision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntelDecision.h; sourceTree = "<group>"; };
 		84C839C7217F28A500541D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C839E2217F3D7500541D4D /* RoomListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListCellView.swift; sourceTree = "<group>"; };
-		EE22B0DD7837C48B22C43409 /* Pods-jinher.app.IntelDecision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinher.app.IntelDecision.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-jinher.app.IntelDecision/Pods-jinher.app.IntelDecision.release.xcconfig"; sourceTree = "<group>"; };
-		FA4C5B0559F74EAE694A441E /* Pods-jinher.app.IntelDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinher.app.IntelDecision.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-jinher.app.IntelDecision/Pods-jinher.app.IntelDecision.debug.xcconfig"; sourceTree = "<group>"; };
+		EE22B0DD7837C48B22C43409 /* Pods-jinher.app.IntelDecision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinher.app.IntelDecision.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-jinher.app.IntelDecision/Pods-jinher.app.IntelDecision.release.xcconfig"; sourceTree = "<group>"; };
+		FA4C5B0559F74EAE694A441E /* Pods-jinher.app.IntelDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinher.app.IntelDecision.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-jinher.app.IntelDecision/Pods-jinher.app.IntelDecision.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
